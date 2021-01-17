@@ -17,7 +17,7 @@ import retrofit2.Response;
 
 public class DataManager {
 
-    public ResponseCallback responseCallback;
+    private ResponseCallback responseCallback;
 
     public static DataManager newInstance(ResponseCallback callback) {
 

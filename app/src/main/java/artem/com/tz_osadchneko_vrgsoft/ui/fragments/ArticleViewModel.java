@@ -15,7 +15,7 @@ import artem.com.tz_osadchneko_vrgsoft.model.Children;
 
 public class ArticleViewModel extends ViewModel implements ResponseCallback {
 
-    MutableLiveData<List<Children>> data;
+    private MutableLiveData<List<Children>> data;
 
     public LiveData<List<Children>> getData() {
         if (data == null) {
